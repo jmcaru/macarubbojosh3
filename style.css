@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Cherry Cream Soda', cursive;
+} 
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(image/ksksk.JPG);
+    background-position:center; 
+    background-size: cover;
+    position: relative;    
+} 
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;     
+}
+nav img {
+    width: 150px;
+}
+
+.mpw{
+    width: 90%;
+    color: floralwhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.mpw h1{
+    font-size: 62px;
+}
+.mpw p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: antiquewhite
+}
+
+.mpw{
+width: 90%;
+position: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: inherit
+}
+
+}
+.mpw h2{
+    font-size: 95px;
+}
+.mpw p1{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: antiquewhite
+}
+
+/*------LSPU------*/
+
+.link{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    color: #800000;
+   
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.joshuapogi-col{
+    flex-basis: 31%;
+    background: #A9957B;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0; 
+    color: chartreuse
+}
+p{
+    text-align: center;
+    margin: 10px 0; 
+    color: white
+       
+}
+
+.joshuapogi-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+@media(max-width: 700px) {
+    .row{
+    flex-direction: column;
+    }
+}
+
